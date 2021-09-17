@@ -1,4 +1,5 @@
 import { useState, useEffect} from 'react'
+import List from './components/List'
 
 
 
@@ -21,7 +22,11 @@ function App() {
   }
 
   return (
-   <h1>Hello React</h1>
+   <main className="main">
+     <section className="container">
+       <h3>0 birthdays todays</h3>
+     </section>
+   </main>
   );
 }
 
