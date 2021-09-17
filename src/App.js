@@ -29,7 +29,6 @@ function App() {
     })
     updateBirthdays(birthdays)
     })
-    console.log(birthdays)
 
   }
   return (

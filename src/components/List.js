@@ -6,10 +6,12 @@ function List({ data}) {
                 const {id, name, age} = d
                 return <div key = {id} className="list">
                         
-                        <p>{id}</p>
-                        <p>{name}</p>
-                        <p>{age}</p>
+                        <p className="id">{id}</p>
+                        <div className="list-right">
+                        <p className="name">{name}</p>
+                        <p className="age">{age}</p>
                         </div>
+                    </div>
                 })
                 }
         </>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 
 * {
@@ -28,6 +28,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
+}
+.container h3 {
+  margin: 1rem 0;
 }
 .btn {
   padding: 0.5rem;
@@ -40,5 +44,28 @@ body {
 .list {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #123;
+  background-color: rgb(77, 154, 231);
+  border-radius: 10px;
+}
+.id {
+  margin: 1rem;
+  /* border: 1px solid #123; */
+}
+
+
+.list-right {
+  margin: 1rem;
+  /* border: 1px solid #123; */
+}
+
+.name {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.age {
+  font-size: 0.8rem;
+  /* color: rgb(32, 32, 32); */
 }
