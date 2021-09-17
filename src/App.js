@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react'
 import List from './components/List'
-
+import Button from './components/Button'
 
 
 function App() {
@@ -21,10 +21,23 @@ function App() {
     return data
   }
 
+  const clearBirthdays = async () => {
+
+    birthdays.forEach( (birthday) => {
+      fetch(`http://localhost:5000/birthdays/${birthday.id}`, {
+      method: 'DELETE'
+    })
+    updateBirthdays(birthdays)
+    })
+    console.log(birthdays)
+
+  }
   return (
    <main className="main">
      <section className="container">
-       <h3>0 birthdays todays</h3>
+       <h3>{birthdays.length} birthdays todays</h3>
+       <List data={birthdays}/>
+       <Button onClick={clearBirthdays}/>
      </section>
    </main>
   );

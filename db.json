@@ -1,29 +1,19 @@
 {
   "birthdays": [
     {
-      "id": 1,
-      "name": "Raghav",
-      "age": "28"
+      "id":1,
+      "name":"raghav",
+      "age": 28
     },
     {
-      "id": 2,
-      "name": "Sam",
-      "age": "29"
+      "id":2,
+      "name":"raghu",
+      "age": 28
     },
     {
-      "id": 3,
-      "name": "Sachin",
-      "age": "25"
-    },
-    {
-      "id": 4,
-      "name": "Parteek",
-      "age": "23"
-    },
-    {
-      "id": 5,
-      "name": "Kiran",
-      "age": "26"
+      "id":3,
+      "name":"raja",
+      "age": 28
     }
   ]
 }

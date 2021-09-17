@@ -12,9 +12,6 @@ html {
 }
 
 body {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   height: 100vh;
   width: 100vw;
   background: linear-gradient(rgba(41, 158, 236, 0.555), rgba(100,20,20,0.6));
@@ -28,4 +25,20 @@ body {
 .container {
   width: 100%;
   border: 1px solid #123;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem;background-color: rgb(110, 183, 255);
+  box-shadow: 0 5px 7.5px rgba(0,0,0,0.5);
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
