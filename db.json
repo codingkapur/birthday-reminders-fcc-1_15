@@ -1,19 +1,29 @@
 {
-  "posts": [
+  "birthdays": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Raghav",
+      "age": "28"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Sam",
+      "age": "29"
+    },
+    {
+      "id": 3,
+      "name": "Sachin",
+      "age": "25"
+    },
+    {
+      "id": 4,
+      "name": "Parteek",
+      "age": "23"
+    },
+    {
+      "id": 5,
+      "name": "Kiran",
+      "age": "26"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
